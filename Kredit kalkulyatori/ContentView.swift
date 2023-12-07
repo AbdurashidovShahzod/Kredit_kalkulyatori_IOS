@@ -10,15 +10,16 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct SlideMenu : View {
+    var body: some View {
+        Image(systemName: "globe")
+            .resizable()
+            .frame(width: 60,height: 60)
+            .clipShape(Circle())
+    }
 }
+

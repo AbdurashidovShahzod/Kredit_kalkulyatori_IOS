@@ -11,7 +11,8 @@ import SwiftUI
 struct Kredit_kalkulyatoriApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
 }
+

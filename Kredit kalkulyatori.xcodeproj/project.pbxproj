@@ -11,9 +11,11 @@
 		10B0BF392B21D99A00F06E48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B0BF382B21D99A00F06E48 /* ContentView.swift */; };
 		10B0BF3B2B21D99B00F06E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B0BF3A2B21D99B00F06E48 /* Assets.xcassets */; };
 		10B0BF3E2B21D99B00F06E48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B0BF3D2B21D99B00F06E48 /* Preview Assets.xcassets */; };
-		10B0BF482B21D99B00F06E48 /* Kredit_kalkulyatoriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B0BF472B21D99B00F06E48 /* Kredit_kalkulyatoriTests.swift */; };
-		10B0BF522B21D99B00F06E48 /* Kredit_kalkulyatoriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B0BF512B21D99B00F06E48 /* Kredit_kalkulyatoriUITests.swift */; };
-		10B0BF542B21D99B00F06E48 /* Kredit_kalkulyatoriUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B0BF532B21D99B00F06E48 /* Kredit_kalkulyatoriUITestsLaunchTests.swift */; };
+		10B0BF612B21DCDF00F06E48 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B0BF602B21DCDF00F06E48 /* SplashScreenView.swift */; };
+		10B0BF672B21EAEE00F06E48 /* caslon_italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10B0BF632B21EAED00F06E48 /* caslon_italic.ttf */; };
+		10B0BF682B21EAEE00F06E48 /* infra_semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10B0BF642B21EAEE00F06E48 /* infra_semibold.ttf */; };
+		10B0BF692B21EAEE00F06E48 /* caslon_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10B0BF652B21EAEE00F06E48 /* caslon_bold.ttf */; };
+		10B0BF6A2B21EAEE00F06E48 /* caslon_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10B0BF662B21EAEE00F06E48 /* caslon_regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +42,12 @@
 		10B0BF3A2B21D99B00F06E48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10B0BF3D2B21D99B00F06E48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		10B0BF432B21D99B00F06E48 /* Kredit kalkulyatoriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kredit kalkulyatoriTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		10B0BF472B21D99B00F06E48 /* Kredit_kalkulyatoriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kredit_kalkulyatoriTests.swift; sourceTree = "<group>"; };
 		10B0BF4D2B21D99B00F06E48 /* Kredit kalkulyatoriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kredit kalkulyatoriUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		10B0BF512B21D99B00F06E48 /* Kredit_kalkulyatoriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kredit_kalkulyatoriUITests.swift; sourceTree = "<group>"; };
-		10B0BF532B21D99B00F06E48 /* Kredit_kalkulyatoriUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kredit_kalkulyatoriUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		10B0BF602B21DCDF00F06E48 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		10B0BF632B21EAED00F06E48 /* caslon_italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = caslon_italic.ttf; sourceTree = "<group>"; };
+		10B0BF642B21EAEE00F06E48 /* infra_semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = infra_semibold.ttf; sourceTree = "<group>"; };
+		10B0BF652B21EAEE00F06E48 /* caslon_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = caslon_bold.ttf; sourceTree = "<group>"; };
+		10B0BF662B21EAEE00F06E48 /* caslon_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = caslon_regular.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +78,9 @@
 		10B0BF2A2B21D99A00F06E48 = {
 			isa = PBXGroup;
 			children = (
+				10B0BF6B2B21EF6B00F06E48 /* Splash */,
+				10B0BF622B21EA9300F06E48 /* Font */,
 				10B0BF352B21D99A00F06E48 /* Kredit kalkulyatori */,
-				10B0BF462B21D99B00F06E48 /* Kredit kalkulyatoriTests */,
-				10B0BF502B21D99B00F06E48 /* Kredit kalkulyatoriUITests */,
 				10B0BF342B21D99A00F06E48 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,21 +114,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		10B0BF462B21D99B00F06E48 /* Kredit kalkulyatoriTests */ = {
+		10B0BF622B21EA9300F06E48 /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				10B0BF472B21D99B00F06E48 /* Kredit_kalkulyatoriTests.swift */,
+				10B0BF652B21EAEE00F06E48 /* caslon_bold.ttf */,
+				10B0BF632B21EAED00F06E48 /* caslon_italic.ttf */,
+				10B0BF662B21EAEE00F06E48 /* caslon_regular.ttf */,
+				10B0BF642B21EAEE00F06E48 /* infra_semibold.ttf */,
 			);
-			path = "Kredit kalkulyatoriTests";
+			path = Font;
 			sourceTree = "<group>";
 		};
-		10B0BF502B21D99B00F06E48 /* Kredit kalkulyatoriUITests */ = {
+		10B0BF6B2B21EF6B00F06E48 /* Splash */ = {
 			isa = PBXGroup;
 			children = (
-				10B0BF512B21D99B00F06E48 /* Kredit_kalkulyatoriUITests.swift */,
-				10B0BF532B21D99B00F06E48 /* Kredit_kalkulyatoriUITestsLaunchTests.swift */,
+				10B0BF602B21DCDF00F06E48 /* SplashScreenView.swift */,
 			);
-			path = "Kredit kalkulyatoriUITests";
+			path = Splash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +237,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10B0BF682B21EAEE00F06E48 /* infra_semibold.ttf in Resources */,
+				10B0BF692B21EAEE00F06E48 /* caslon_bold.ttf in Resources */,
 				10B0BF3E2B21D99B00F06E48 /* Preview Assets.xcassets in Resources */,
+				10B0BF6A2B21EAEE00F06E48 /* caslon_regular.ttf in Resources */,
 				10B0BF3B2B21D99B00F06E48 /* Assets.xcassets in Resources */,
+				10B0BF672B21EAEE00F06E48 /* caslon_italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +269,7 @@
 			files = (
 				10B0BF392B21D99A00F06E48 /* ContentView.swift in Sources */,
 				10B0BF372B21D99A00F06E48 /* Kredit_kalkulyatoriApp.swift in Sources */,
+				10B0BF612B21DCDF00F06E48 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +277,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10B0BF482B21D99B00F06E48 /* Kredit_kalkulyatoriTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +284,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10B0BF522B21D99B00F06E48 /* Kredit_kalkulyatoriUITests.swift in Sources */,
-				10B0BF542B21D99B00F06E48 /* Kredit_kalkulyatoriUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
